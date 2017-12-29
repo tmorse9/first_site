@@ -1,11 +1,11 @@
 angular.module('appRoutes', []).config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
   $routeProvider
     .when('/', {
-      templateUrl: 'public/views/home.html'
+      templateUrl: 'views/home.html'
       controller: 'MainController'
     })
     .when('/', {
-      templateUrl: 'public/views/aboutme.html'
+      templateUrl: 'views/aboutme.html'
       controller: 'ContentController'
     });
 
