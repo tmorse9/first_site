@@ -8,7 +8,7 @@ const HOST = '0.0.0.0';
 
 // App
 const app = express();
-require('./app/routes')(app);
+require('./public/routes')(app);
 // app.get('/', (req, res) => {
 //   res.send('Hello world\n');
 // });
