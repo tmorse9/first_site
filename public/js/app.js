@@ -1,1 +1,1 @@
-angular.module('firstSite', ['ngRoute', 'appRoutes', 'MainCtrl', 'ContentCtrl' ]);
+angular.module('sampleApp', ['ngRoute', 'appRoutes', 'MainCtrl', 'ContentCtrl', 'ContentService', 'LogicCtrl', 'LogicService']);
